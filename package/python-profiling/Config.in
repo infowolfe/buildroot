@@ -1,0 +1,14 @@
+config BR2_PACKAGE_PYTHON_PROFILING
+	bool "python-profiling"
+	help
+    The profiling package is an interactive continuous Python profiler. It is
+    inspired from Unity 3D profiler. This package provides these features:
+      Profiling statistics keep the frame stack.
+      An interactive TUI profiling statistics viewer.
+      Provides both of statistical and deterministic profiling.
+      Utilities for remote profiling.
+      Thread or greenlet aware CPU timer.
+      Supports Python 2.7, 3.3, 3.4 and 3.5.
+      Currently supports only Linux.
+
+	  https://pypi.python.org/pypi/profiling
